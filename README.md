@@ -4,11 +4,14 @@ Repositorio de GIFs técnicos — documentación visual de la infraestructura de
 
 ## 📁 Estructura
 
-```
+```text
 ├── infra/          # Topología de red, cluster Proxmox, flujos DNS
 ├── procesos/       # Walkthroughs animados (deploy LXC, backup NAS, etc.)
 ├── status/         # Indicadores de salud del cluster
-├── clientes/       # Diagramas por cliente (nombres anonimizados)
+├── clientes/       # Diagramas anonimizados por industria y entorno de demostración
+│   ├── cliente-automotriz-demo/
+│   ├── cliente-retail-demo/
+│   └── cliente-servicios-demo/
 └── telegram/       # GIFs reactivos para comunicación en Telegram
 ```
 
