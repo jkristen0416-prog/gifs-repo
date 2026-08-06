@@ -8,9 +8,21 @@ Repositorio de GIFs técnicos — documentación visual de la infraestructura de
 ├── infra/          # Topología de red, cluster Proxmox, flujos DNS
 ├── procesos/       # Walkthroughs animados (deploy LXC, backup NAS, etc.)
 ├── status/         # Indicadores de salud del cluster
-├── clientes/       # Diagramas por cliente (Burgwagen, Cityssan, TiendaCars)
+├── clientes/       # Diagramas por cliente (nombres anonimizados)
 └── telegram/       # GIFs reactivos para comunicación en Telegram
 ```
+
+## 🔒 Privacidad y anonimización
+
+- **No se publican nombres de clientes reales.** Cualquier referencia a un
+  cliente se reemplaza por un identificador genérico (ej: `cliente-a`,
+  `cliente-b`).
+- **No se publican IPs, dominios internos ni credenciales** de ningún
+  entorno real.
+- Los diagramas de clientes usan **datos ficticios y demostrativos**
+  (topologías de ejemplo, no la infraestructura real del cliente).
+- Antes de cada commit, revisar que ningún archivo contenga datos
+  identificables: `grep -ri "nombre-cliente\|ip-remota\|dominio-interno" .`
 
 ## 📐 Convenciones
 
